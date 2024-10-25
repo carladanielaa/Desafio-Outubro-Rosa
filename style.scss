@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fce4ec;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f06292;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  width: 50px;
+}
+
+header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #ff4081;
+  border-radius: 5px;
+}
+
+.topo {
+  display: flex;
+  color: #fce4ec;
+  padding: 5px;
+}
+
+.sobre {
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    margin: 40px;
+    padding-left: 50px;
+    width: 45vw;
+    height: 30vh;
+    font-size: 23px;
+  }
+  img {
+    padding-right: 100px;
+    margin: 20px;
+    width: 40vw;
+    height: 35vh;
+  }
+}
+
+.conscientizacao {
+  display: flex;
+  background-color: #ff4081;
+  height: 40vh;
+
+  p {
+    margin: 50px;
+    padding-left: 45px;
+    width: 45vw;
+    height: 30vh;
+    font-size: 23px;
+    color: #fce4ec;
+  }
+  img {
+    margin: 20px;
+    padding-left: 60px;
+    height: 30vh;
+  }
+}
+
+.dicas {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  width: 98vw;
+}
+
+.dicas {
+  padding-top: 20px;
+  height: 40vh;
+
+  img {
+    margin: 10px;
+    padding: 5px;
+  }
+}
+
+footer {
+  background-color: #f06292;
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+}
+
+footer .social a {
+  margin: 5px;
+}
+
+footer .social img {
+  width: 3vw;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+
+.paragrafos {
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+.img-rosa {
+  padding: 15px;
+}
